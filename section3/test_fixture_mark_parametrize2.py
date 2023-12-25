@@ -34,10 +34,10 @@ class TestParameterization():
         sign_button1.click()
 
         input_email = browser.find_element(By.CSS_SELECTOR, "#id_login_email")
-        input_email.send_keys("kantemir.koshiev@mail.ru")
+        input_email.send_keys("login")
 
         input_password = browser.find_element(By.CSS_SELECTOR, "#id_login_password")
-        input_password.send_keys("Kant1989")
+        input_password.send_keys("password")
 
         sign_button2 = browser.find_element(By.CSS_SELECTOR, "button.sign-form__btn")
         sign_button2.click()
